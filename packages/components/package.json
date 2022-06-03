@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/components",
+  "name": "components",
   "version": "2.0.1",
   "dependencies": {
     "@monorepo/shared": "^3.0.1",
@@ -40,5 +40,5 @@
       "last 1 safari version"
     ]
   },
-  "gitHead": "01b5b18c656c2ddf488da10c201b7f5902315f60"
+  "gitHead": "f7406869bf50fe515e2c954cc1712fb3e50a56ff"
 }
