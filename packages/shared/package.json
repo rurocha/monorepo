@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/shared",
+  "name": "shared",
   "version": "3.0.1",
   "main": "lib/index.js",
   "license": "MIT",
@@ -12,5 +12,5 @@
     "react": "^18.1.0",
     "typescript": "^4.6.4"
   },
-  "gitHead": "01b5b18c656c2ddf488da10c201b7f5902315f60"
+  "gitHead": "f7406869bf50fe515e2c954cc1712fb3e50a56ff"
 }
