@@ -1,5 +1,5 @@
 {
-  "name": "shared",
+  "name": "shared-ruan-components",
   "version": "3.0.2",
   "main": "lib/index.js",
   "license": "MIT",
@@ -12,5 +12,5 @@
     "react": "^18.1.0",
     "typescript": "^4.6.4"
   },
-  "gitHead": "f7406869bf50fe515e2c954cc1712fb3e50a56ff"
+  "gitHead": "873d0c80046b10154c5f5e817c306c7c3e5ae224"
 }

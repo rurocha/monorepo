@@ -1,5 +1,5 @@
 {
-  "name": "components",
+  "name": "components-ruan",
   "version": "2.0.2",
   "dependencies": {
     "@monorepo/shared": "^3.0.1",
@@ -40,5 +40,5 @@
       "last 1 safari version"
     ]
   },
-  "gitHead": "f7406869bf50fe515e2c954cc1712fb3e50a56ff"
+  "gitHead": "873d0c80046b10154c5f5e817c306c7c3e5ae224"
 }
