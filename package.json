@@ -1,6 +1,5 @@
 {
   "name": "@monorepo/root",
-  "private": true,
   "workspaces": {
     "packages": [
       "packages/*"
@@ -11,5 +10,9 @@
   },
   "devDependencies": {
     "lerna": "^4.0.0"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@ruanvncs"
+  },
+  "registry": "git@github.com:rurocha/monorepo.git"
 }
