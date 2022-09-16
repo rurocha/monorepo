@@ -11,12 +11,16 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/main.ts'),
       name: 'main',
-      fileName: 'main'
+      fileName: (format) => `main.${format}.js`,
     },
     rollupOptions: {
+      external: ['vue'],
       output: {
         entryFileNames: `main.js`,
-      } 
-    }
+        globals: {
+          vue: 'Vue',
+        },
+      },
+    },
   }
 })
