@@ -1,4 +1,9 @@
 
 
-export { default as Button } from './components/Button.vue'
-export { toUp } from './utils'
+import Button from './components/Button.vue'
+
+export default {
+  install: (app: any, options: any) => {
+    app.component('Button', Button)
+  }
+}
