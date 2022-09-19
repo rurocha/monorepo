@@ -1,8 +1,10 @@
 {
   "name": "ruan-components",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/ruan-components.umd.cjs",
   "module": "./dist/ruan-components.js",
   "exports": {
