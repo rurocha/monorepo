@@ -6,7 +6,6 @@
   </button>
 </template>
 <script setup lang="ts">
-
 interface Props {
   type: 'primary' | 'outline'
 }
