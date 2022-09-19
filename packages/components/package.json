@@ -13,6 +13,7 @@
       "require": "./dist/ruan-components.umd.cjs"
     }
   },
+  "./dist/style.css": "./dist/style.css",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
