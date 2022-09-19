@@ -1,9 +1,8 @@
 {
   "name": "ruan-components",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "main": "dist/main.js",
-
   "module": "./dist/ruan-components.js",
   "types": "./dist/main.d.ts",
   "exports": {
