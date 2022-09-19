@@ -1,31 +1,27 @@
-import { defineComponent as r, openBlock as a, createElementBlock as c, normalizeClass as p, renderSlot as l } from "vue";
-const u = /* @__PURE__ */ r({
+import { defineComponent as r, openBlock as _, createElementBlock as c, normalizeClass as p, renderSlot as u } from "vue";
+const a = /* @__PURE__ */ r({
   __name: "Button",
   props: {
     type: null
   },
   setup(t) {
-    const o = t, e = {
-      "button--primary": o.type === "primary",
-      "button--outline": o.type === "outline"
+    const e = t, o = {
+      "button--primary": e.type === "primary",
+      "button--outline": e.type === "outline"
     };
-    return (n, s) => (a(), c("button", {
-      class: p(["button", e])
+    return (n, s) => (_(), c("button", {
+      class: p(["button", o])
     }, [
-      l(n.$slots, "default", {}, void 0, !0)
+      u(n.$slots, "default", {}, void 0, !0)
     ], 2));
   }
 });
-const _ = (t, o) => {
-  const e = t.__vccOpts || t;
-  for (const [n, s] of o)
-    e[n] = s;
-  return e;
-}, d = /* @__PURE__ */ _(u, [["__scopeId", "data-v-fdd9b8ea"]]), m = {
-  install: (t, o) => {
-    t.component("Button", d);
-  }
-};
+const l = (t, e) => {
+  const o = t.__vccOpts || t;
+  for (const [n, s] of e)
+    o[n] = s;
+  return o;
+}, i = /* @__PURE__ */ l(a, [["__scopeId", "data-v-fdd9b8ea"]]);
 export {
-  m as default
+  i as Button
 };
